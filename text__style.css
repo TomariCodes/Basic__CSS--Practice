@@ -1,4 +1,15 @@
-.video__title {}
-.video__stats {}
-.video__creator {}
-.video__description {}
+.video__title {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.video__creator,
+.video__description,
+.video__stats {
+  color: rgb(96, 96, 96);
+}
+
+.youtube__video--container {
+  width: 30%;
+  margin-left: 10px;
+}
