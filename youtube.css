@@ -1,12 +1,15 @@
 .video__title {
-  font-weight: 700;
-  font-size: 17px;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 12px;
 }
+
+
 
 .video__creator,
 .video__stats {
   color: rgb(96, 96, 96);
-  font-size: 15px;
+  font-size: 14px;
   padding: 0;
 }
 
@@ -22,19 +25,19 @@ grid-template-columns: 50px 1fr;
 
 .thumbnail {
     width: 100%;
+    margin-bottom: 10px;
 }
 .profile__picture {
-  margin-top: 15px; 
-width: 30px;
+width: 40px;
 border-radius: 25px;
 }
 
 .videos {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  row-gap: 20px;
-  column-gap: 5px;
+  row-gap: 30px;
+  column-gap: 10px;
 }
 .video__creator {
-transform: translateY(12px);
+margin-bottom: 6px;
 }
