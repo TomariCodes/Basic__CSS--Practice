@@ -1,8 +1,19 @@
 .header {
     height: 60px;
+    background-color: white;
     display: flex;
     justify-content: space-between;
     text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+ 
+}
+
+.videos {
+    margin-top: 60px;
 }
 
 .left__section {
@@ -38,6 +49,10 @@ width: 100%;
     border-color: rgb(192, 192, 192);
     width: 0;
 
+}  
+
+.search__bar:active {
+    outline-color: rgb(0, 130, 255 );
 }
 
 .search__bar::placeholder {
