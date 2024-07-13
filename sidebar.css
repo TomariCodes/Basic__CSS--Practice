@@ -1,5 +1,4 @@
 .sidebar {
-    background-color: green;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -7,5 +6,93 @@
     width: 72px;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
+}
+
+.home__icon {
+height: 20px;
+width: 100%;
+}
+
+.home {
+  width: 100%;
+    text-align: center;
+    font-family: roboto, arial;
+    font-size: 11px;    
+}
+
+.button {
+    height: 72px;
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: rgb(240, 240, 240);
+}
+
+.explore__icon {
+    height: 20px;
+    width: 100%;
+}
+
+.explore {
+      width: 100%;
+    text-align: center;
+    font-family: roboto, arial;
+    font-size: 11px;
+}
+.subscriptions__icon {
+    height: 20px;
+    width: 100%;
+}
+
+.subscriptions {
+    width: 100%;
+    text-align: center;
+    font-family: roboto, arial;
+    font-size: 11px;
+}
+
+
+.originals__icon {
+    height: 20px;
+    width: 100%;
+}
+
+.originals {
+      width: 100%;
+    text-align: center;
+    font-family: roboto, arial;
+    font-size: 11px;
+}
+
+
+.music__icon {
+    height: 20px;
+    width: 100%;
+}
+
+.music {
+    width: 100%;
+    text-align: center;
+    font-family: roboto, arial;
+    font-size: 11px;
+}
+
+.library__icon {
+    height: 20px;
+    width: 100%;
+}
+
+.library {
+      width: 100%;
+    text-align: center;
+    font-family: roboto, arial;
+    font-size: 11px;
 }
