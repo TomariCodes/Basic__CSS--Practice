@@ -8,12 +8,9 @@
     top: 0;
     left: 0;
     right: 0;
-
- 
-}
-
-.videos {
-    margin-top: 60px;
+border-bottom-width: 1px;
+border-bottom-style: solid;
+ border-bottom-color: rgb(230, 230, 230);
 }
 
 .left__section {
@@ -114,5 +111,16 @@ flex-shrink: 0;
 height: 32px;
 border-radius: 16px;
 
+}
+
+/* SIDEBAR */
+
+.sidebar {
+    background-color: green;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 60px;
+    width: 72px;
 }
 
