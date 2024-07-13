@@ -30,7 +30,7 @@
 }
 
 .videos {
-  padding-right: 80px;
+  padding-left: 80px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   row-gap: 40px;
