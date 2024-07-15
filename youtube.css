@@ -40,12 +40,23 @@
   margin-bottom: 6px;
 }
 
-.video__time {
-  display: inline;
-  position: relative;
-  background-color: black;
-  font-family: roboto, arial;
-  color: white;
-  width: 40px;
 
+
+.video__time {
+  position: absolute;
+  background-color: black;
+  font-family: Roboto, Arial;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  bottom: 20px;
+right: 8px;
+padding: 4px 4px;
+border-radius: 2px;
+
+}
+
+.video__thumbnail {
+  position: relative;
+  z-index: 0;
 }
