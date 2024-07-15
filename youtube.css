@@ -39,3 +39,13 @@
 .video__creator {
   margin-bottom: 6px;
 }
+
+.video__time {
+  display: inline;
+  position: relative;
+  background-color: black;
+  font-family: roboto, arial;
+  color: white;
+  width: 40px;
+
+}
