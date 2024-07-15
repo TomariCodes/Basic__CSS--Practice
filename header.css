@@ -107,6 +107,23 @@ flex-shrink: 0;
  height: 25px;
 }
 
+.notif__icon {
+    position: relative;
+}
+
+.notif__number {
+    position: absolute;
+   top: -2px;
+   right: -5px;
+    font-size: 11px;
+    font-family: Roboto, Arial; 
+    background: rgb(200, 0, 0);
+    padding: 2px 5px;
+    color: white;   
+    border-radius: 10px;
+    z-index: 1;
+}
+
 
 .simple__dev--channel {
 height: 32px;
