@@ -146,10 +146,52 @@ flex-shrink: 0;
 
 .notif__icon, .upload__icon--container, .apps__icon--container {
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.notif__icon, .upload__icon--container, .apps__icon--container div {
+.notif__icon div {
       position: absolute;
+    background: gray;
+    color: white;
+    padding: 4px 8px;
+    font-size: 12px;
+    border-radius: 2px;
+    bottom: -30px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.notif__icon:hover .title {
+    opacity: 1;
+}
+.apps__icon--container:hover div {
+    opacity: 1;
+}
+
+.upload__icon--container:hover div {
+    opacity: 1;
+}
+
+.upload__icon--container div {
+position: absolute;
+    background: gray;
+    color: white;
+    padding: 4px 8px;
+    font-size: 12px;
+    border-radius: 2px;
+    bottom: -30px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.apps__icon--container div {
+position: absolute;
     background: gray;
     color: white;
     padding: 4px 8px;

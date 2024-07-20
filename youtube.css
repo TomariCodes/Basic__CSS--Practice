@@ -42,7 +42,8 @@
     grid-template-columns: 1fr 1fr;
   }
 }
-@media (min-width: 751px) and (max-width: 999px) {
+@media (min-width: 751px) and (max-width: 
+999px) {
   .videos {
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -50,7 +51,7 @@
 
 @media (min-width: 1000px) {
   .videos {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
 
